@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+/* Base */
+body,
+body *:not(html):not(style):not(br):not(tr):not(code) {
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    position: relative;
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    background-color: #f4f7f9;
+    /* background-color: #0172B6; */
+    color: #04060a;
+    height: 100%;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    width: 100% !important;
+}
+
+p,
+ul,
+ol,
+blockquote {
+    line-height: 1.6;
+    text-align: left;
+}
+
+a {
+    color: #0E4084;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0E4084;
+}
+
+/* Typography */
+h1 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 0;
+    text-align: left;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    text-align: left;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0;
+    text-align: left;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 0;
+    text-align: left;
+}
+
+p.sub {
+    font-size: 14px;
+    color: #718096;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Layout */
+.wrapper {
+    background-color: #f4f7f9;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Header */
+.header {
+    padding: 25px 0;
+    text-align: center;
+}
+
+.header a {
+    color: #2d3748;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Logo */
+.logo {
+    height: 40px;
+    width: auto;
+    max-width: 100%;
+}
+
+/* Body */
+.body {
+    background-color: #ffffff;
+    border-bottom: 1px solid #edf2f7;
+    border-top: 1px solid #edf2f7;
+    margin: 0;
+    padding: 0;
+}
+
+.inner-body {
+    background-color: #ffffff;
+    border-color: #e2e8f0;
+    border-radius: 4px;
+    border-width: 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+    padding: 24px;
+    max-width: 600px;
+}
+
+/* Subcopy */
+.subcopy {
+    border-top: 1px solid #e2e8f0;
+    margin-top: 24px;
+    padding-top: 24px;
+}
+
+.subcopy p {
+    font-size: 14px;
+    color: #718096;
+}
+
+/* Footer */
+.footer {
+    margin: 0 auto;
+    padding: 16px;
+    text-align: center!important;
+    color: #718096;
+    font-size: 12px;
+}
+
+.footer a {
+    color: #0172B6;
+    /* text-decoration: underline; */
+    text-align: center!important;
+}
+
+.content-cell{
+    text-align: center!important;
+}
+
+/* Tables */
+.table {
+    margin: 30px auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid #e2e8f0;
+    padding: 10px;
+}
+
+/* Buttons */
+.button {
+    border-radius: 4px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.button-blue,
+.button-primary {
+    background-color: #0E4084;
+    border: 0;
+}
+
+.button-blue:hover,
+.button-primary:hover {
+    background-color: #0E4084;
+}
+
+.button-green,
+.button-success {
+    background-color: #48bb78;
+    border: 0;
+}
+
+.button-green:hover,
+.button-success:hover {
+    background-color: #38a169;
+}
+
+.button-red,
+.button-error {
+    background-color: #e53e3e;
+    border: 0;
+}
+
+.button-red:hover,
+.button-error:hover {
+    background-color: #c53030;
+}
+
+/* Panels */
+.panel {
+    /* border-left: 4px solid #2d3748; */
+    margin: 21px 0;
+    border-radius: 10px;
+}
+
+.panel-content {
+    background-color: #f4f7f9;
+    border-radius: 10px;
+    color: #191a1d;
+    padding: 16px;
+}
+
+.panel-content p {
+    color: #74798c;
+    margin: 0;
+}
+
+.panel-content code {
+    color: #157221;
+    margin: 0;
+}
+
+.panel-item {
+    padding: 0;
+}
+
+.panel-item p:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Utilities */
+.break-all {
+    word-break: break-all;
+}

@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Custom scrollbar styles */
+/* Hide scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Show scrollbar on hover */
+.hover\:scrollbar-show:hover::-webkit-scrollbar {
+  display: block;
+}
+
+
+
+/* Custom scrollbar styles */
+/* Show scrollbar */
+.scrollbar-show::-webkit-scrollbar {
+  display: block;
+}
+
+.scrollbar-show {
+  -ms-overflow-style: auto; /* IE and Edge */
+  scrollbar-width: auto; /* Firefox */
+}
